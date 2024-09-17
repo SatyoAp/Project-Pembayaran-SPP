@@ -1,0 +1,152 @@
+body{
+	background-color: #F5F5DC;
+	font-size: 16px;
+	color: #000000;
+	font-family: sans-serif;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+ /* Warna Judul Pada Tabel */
+th{
+	background-color: #FFA07A;
+	height: 30px;
+}
+
+.content{
+	width: 100%;
+	margin: 10px auto;
+}
+
+/*header*/
+header{
+	background-image: url('images/header.jpg');
+	background-size: 100%;
+	height: 135px;
+	padding: 30px 12px;
+	border-radius: 5px;
+	border: 1px solid #F5F5DC;
+	margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;
+}
+h2{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*menu navigasi*/
+.menu{
+	background-color: #F4A460;
+	border: 1px solid #F5F5DC;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+
+div.menu ul {
+	list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F4A460;
+  border-radius: 8px;
+  border: 1px solid #F5F5DC;
+}
+div.menu li {
+  float: left;
+  text-transform:uppercase;
+}
+
+div.menu ul li a {
+	display: block;
+  color: black;
+  font-weight: 800;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition:all 0.3s ease-in-out;
+}
+
+
+div.menu ul li a:hover {	
+	cursor: pointer;
+	background-color: #FFE4B5;	
+	color: black;
+}
+.logout{
+		text-align: right;
+		margin-right: 30px;
+		margin-left: 510px;
+		display:block;	
+		padding:0 10px;
+		text-decoration:none;
+		color: #000000;
+		font-family: sans-serif;
+		font-size:13px;
+		font-weight:800;
+		transition:all 0.3s ease-in-out;
+	}
+[class=logout]:hover{	
+	cursor: pointer;
+	background-color: #FF0000;	
+	color:black;
+}
+
+          /* Bagian Badan */
+div.badan{
+	background-color: #FFE4B5;
+	border-radius: 5px;
+	border: 1px solid #F5F5DC;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;
+	
+}
+           /* Halaman Bawah*/
+div.halaman-02{
+	text-align: justify;
+	padding: 20px 15px;
+	background-color: #F4A460;
+	color: black;
+	border-radius: 8px;
+}
+.halaman-03{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+            /* Bagian tombol edit dan delete*/
+.btn-delete{
+	border: 1px solid #FF0000;
+	background: #FF0000 url('images/hapus.png') no-repeat 5px 4px;
+	height: 22px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.btn-edit{
+	border: 1px solid #FFA500;
+	background: #FFA500 url('images/edit.png') no-repeat 5px 4px;
+	height: 22px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+div.profil{
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	padding: 30px 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
